@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "logo": {
+      "text1": "FOLK",
+      "imageSrc": "../logo3.png",
+      "imageAlt": "logo",
+      "text2": "BAZAAR"
+    },
+    "icons": [
+      {"class": "fa-solid fa-list", "ariaLabel": "menu"},
+      {"class": "fa-solid fa-magnifying-glass", "ariaLabel": "search"},
+      {"class": "fa-solid fa-heart", "ariaLabel": "wishlist"},
+      {"class": "fa-solid fa-cart-shopping", "ariaLabel": "cart"}
+    ]
+  },
+  "section1": {
+    "icon": "storefront",
+    "title": "Jewelry & Accessories",
+    "description": "Discover the best websites and shops for exquisite jewelry and traditional ornaments!"
+  },
+  "shopCards": [
+    {
+      "id": 1,
+      "color": "card-color-1",
+      "imageSrc": "",
+      "imageAlt": "Gold Jewelry",
+      "shopName": "Golden Heritage",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 2,
+      "color": "card-color-2",
+      "imageSrc": "",
+      "imageAlt": "Silver Jewelry",
+      "shopName": "Silver Craft",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 3,
+      "color": "card-color-3",
+      "imageSrc": "",
+      "imageAlt": "Kundan Jewelry",
+      "shopName": "Kundan Art",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 4,
+      "color": "card-color-4",
+      "imageSrc": "",
+      "imageAlt": "Tribal Jewelry",
+      "shopName": "Tribal Treasures",
+      "buttonText": "View Collection",
+      "textColor": "rgb(255, 255, 255)"
+    }
+  ],
+  "footer": {
+    "title": "Explore More!",
+    "columns": [
+      {
+        "heading": "Shop",
+        "items": ["New Arrivals", "Best Sellers", "Sale", "Collections"]
+      },
+      {
+        "heading": "Information",
+        "items": ["About Us", "Shipping", "Returns", "Contact"]
+      },
+      {
+        "heading": "Categories",
+        "items": ["Gold Jewelry", "Silver Collection", "Kundan Sets", "Tribal Ornaments"]
+      }
+    ]
+  },
+  "backButton": {
+    "text": "Back to homepage",
+    "href": "index.html"
+  }
+}

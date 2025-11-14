@@ -1,0 +1,369 @@
+
+
+.navbar{
+  background-color: black;
+  height: 60px;
+  display: flex;             
+  justify-content: space-between;
+  align-items: center;           
+  padding: 0 10px;  
+  border-bottom: 2px solid orange;             
+}
+
+#logo{
+  height: 60px;
+  background-color:black;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-size: 30px;   
+}
+
+.p-logo {
+  color: orange;
+}
+
+.right{
+  display: flex;               
+  margin-right: 25px;                 
+  background-color:black; 
+  align-items: center; 
+  font-size:23px;     
+}
+
+.right i {
+  margin-right: 20px;
+  color: orange;
+}
+
+/* Back to homepage link styling */
+.home-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Logo color variants */
+.logo-rose {
+  color: rgb(127, 26, 26);
+}
+
+.logo-rajwadi {
+  color: orangered;
+}
+
+.logo-buddist {
+  color: gold;
+}
+
+/* Header content styling */
+.header-content-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.large-icon {
+  font-size: 100px;
+  color: orange;
+}
+
+.large-title {
+  font-size: 100px;
+  color: #020202;
+  font-family: 'Fraunces', serif;
+}
+
+.large-description {
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+/* Website name colors */
+.website-name-white {
+  color: rgb(255, 255, 255);
+}
+
+.website-name-purple {
+  color: purple;
+}
+
+/* Small text styling */
+.small-text {
+  font-size: 10px;
+}
+
+/* Box image backgrounds */
+.box-bg-1 {
+  background-image: url('../box1.jpg');
+  background-size: cover;
+}
+
+.box-bg-2 {
+  background-image: url('../box2.jpg');
+  background-size: cover;
+}
+
+.box-bg-3 {
+  background-image: url('../box3.webp');
+  background-size: cover;
+}
+
+.center{
+  height:500px;
+  background-image:url("../brop2.png");
+  background-size: cover;
+  color:rgb(255, 166, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+
+}
+.text {
+  font-size: 20px;
+  animation: growText 1s ease-out forwards; 
+  animation-delay: 1s; 
+}
+
+@keyframes growText {
+  from { font-size: 30px; }
+  to { font-size: 70px; }
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+
+  animation: 
+    growimage 1s ease-out forwards 1s,  
+    spin 5s linear infinite;            
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes growimage {
+  from { height: 30px; width: 30px; }
+  to   { height: 100px; width: 100px; }
+}
+
+.button1{
+    height: 50px;
+    background-color:#FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+    
+}
+.s1{
+  height:40px;
+  width: 120px;
+  border-radius: 7px;
+  border: none;
+  background-color: pink;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.s1:hover{
+  border: 2px solid black;
+}
+.brand{
+  height:300px;
+  background-color:black;
+  height: 350px;
+}
+
+.title{
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color:orange
+}
+.sub{
+  text-align: center;
+  font-weight: 350;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.content{
+  background-color:rgb(230, 230, 116);
+  height:450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.box{
+  margin-top: 20px;
+  background-color: rgb(158, 50, 11);
+  width:270px;
+  border-radius: 20px;
+  transition: 0.3s ease; 
+}
+.box:hover{
+  border:2px white solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+.image4all{
+  
+  display:block;
+  text-decoration: none;
+  margin-right:auto;
+
+}
+h3{
+  font-size: 20px;
+  font-style: italic;
+  height:25px;
+  width:250px;
+  margin-left: 10px;
+}
+.boximage{
+  height:300px ;
+  width:250px;
+  border-radius: 20px;
+ 
+  margin-left: 10px;
+  
+}
+ a{
+  text-decoration: none;
+  margin-left: 10px;
+  color:white;
+}
+.promote{
+  height:600px;
+  background-color: black;
+  margin-top: 0px;
+}
+.global{
+  color:chocolate;
+  font-size: 30px;
+  font-weight: 300px;
+  text-align: center;
+  
+  padding-top: 20px;
+}
+.flexi{
+  height:500px;
+  background-color:#F8F8F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bsbox{
+    height:450px;
+    width:300px;
+    border-radius: 20px;
+    background-color: #2E2E2E;
+    transition: 0.2 ease;
+
+}
+.bsbox:hover{
+  border:2px orange solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+.high{
+  
+  height: 320px;
+  width: 270px;
+  margin-left: 10px;
+}
+button{
+  background-color: white;
+  height:35px;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: orange;
+}
+.top{
+  height:40px;
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  
+}
+#white{
+  
+  color: orange;
+  font-size: 15px;
+  font-weight: 400;
+  
+  
+
+}
+footer {
+ background: var(--gradient-dark);
+ color: var(--warm-white); 
+  padding: 50px 0 20px;
+margin-top: 0px;
+}
+
+
+ .footer-content {
+            display: grid;
+            background-color: white;
+            color:orange;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+            
+        }
+
+        .footer-column h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: var(--floral-pink);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--gold-accent);
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            color: var(--warm-white);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--floral-pink);
+        }
+.copy{
+  text-align: center;
+}

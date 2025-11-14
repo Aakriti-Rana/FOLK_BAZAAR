@@ -1,0 +1,82 @@
+{
+  "header": {
+    "logo": {
+      "text": "Rose Clothing",
+      "imageSrc": "../brand2-removebg-preview.png",
+      "imageAlt": "Rose Clothing Logo",
+      "color": "rgb(127, 26, 26)"
+    }
+  },
+  "hero": {
+    "title": "Welcome to Rose Clothing",
+    "description": "Discover elegant fashion for every occasion. Quality clothing with timeless style and modern elegance.",
+    "buttonText": "Explore Collection",
+    "buttonLink": "#"
+  },
+  "products": {
+    "sectionTitle": "Featured Products",
+    "items": [
+      {
+        "id": 1,
+        "title": "Floral Summer Dress",
+        "price": "$49.99",
+        "description": "Lightweight and comfortable summer dress with beautiful floral patterns. Perfect for warm days and special occasions.",
+        "imageSrc": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23E8B4B8' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EFloral Summer Dress%3C/text%3E%3C/svg%3E",
+        "imageAlt": "Floral Summer Dress"
+      },
+      {
+        "id": 2,
+        "title": "Classic Blazer",
+        "price": "$89.99",
+        "description": "Elegant blazer for formal and semi-formal occasions. Tailored fit with premium fabric for a sophisticated look.",
+        "imageSrc": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23D4A5A5' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EClassic Blazer%3C/text%3E%3C/svg%3E",
+        "imageAlt": "Classic Blazer"
+      },
+      {
+        "id": 3,
+        "title": "Casual Jeans",
+        "price": "$39.99",
+        "description": "Comfortable and stylish jeans for everyday wear. Available in multiple washes and sizes for the perfect fit.",
+        "imageSrc": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23B19CD9' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3ECasual Jeans%3C/text%3E%3C/svg%3E",
+        "imageAlt": "Casual Jeans"
+      }
+    ]
+  },
+  "about": {
+    "sectionTitle": "About Rose Clothing",
+    "paragraphs": [
+      "Rose Clothing has been providing elegant fashion solutions since 2010. We believe in creating timeless pieces that combine style with comfort.",
+      "Our collections are carefully curated to offer versatile options for every occasion, from casual everyday wear to special event outfits.",
+      "We are committed to sustainable fashion practices and ethical manufacturing, ensuring quality products that you can feel good about wearing."
+    ],
+    "imageSrc": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23A8B5A0' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='28' fill='white' text-anchor='middle' dy='.3em'%3ERose Clothing Store%3C/text%3E%3C/svg%3E",
+    "imageAlt": "Rose Clothing Store"
+  },
+  "footer": {
+    "columns": [
+      {
+        "mainHeading": "Explore More!",
+        "subHeading": "Shop",
+        "items": [
+          "New Arrivals",
+          "Best Sellers",
+          "Sale",
+          "Collections"
+        ]
+      },
+      {
+        "subHeading": "Information",
+        "items": [
+          "About Us",
+          "Shipping",
+          "Returns",
+          "Contact"
+        ]
+      }
+    ]
+  },
+  "backButton": {
+    "text": "Back to homepage",
+    "href": "index.html"
+  }
+}

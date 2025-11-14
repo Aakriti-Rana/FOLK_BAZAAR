@@ -1,0 +1,107 @@
+{
+  "navbar": {
+    "logo": {
+      "text1": "FOLK",
+      "imageSrc": "../logo3.png",
+      "imageAlt": "logo",
+      "text2": "BAZAAR"
+    },
+    "icons": [
+      {
+        "class": "fa-solid fa-list",
+        "ariaLabel": "menu"
+      },
+      {
+        "class": "fa-solid fa-magnifying-glass",
+        "ariaLabel": "search"
+      },
+      {
+        "class": "fa-solid fa-heart",
+        "ariaLabel": "wishlist"
+      },
+      {
+        "class": "fa-solid fa-cart-shopping",
+        "ariaLabel": "cart"
+      }
+    ]
+  },
+  "section1": {
+    "icon": "storefront",
+    "title": "Traditonal",
+    "description": "Discover the best websites and shops for stylish bags and traditional carryalls!"
+  },
+  "shopCards": [
+    {
+      "id": 1,
+      "color": "card-color-1",
+      "imageSrc": "https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/08/23200832/montaigne.jpg",
+      "imageAlt": "Handbags",
+      "shopName": "Bag Elegance",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 2,
+      "color": "card-color-2",
+      "imageSrc": "https://5.imimg.com/data5/SELLER/Default/2023/9/341006138/PZ/TF/CH/135252180/women-shoulder-bag-1000x1000.jpeg",
+      "imageAlt": "Traditional Bags",
+      "shopName": "Heritage Carry",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 3,
+      "color": "card-color-3",
+      "imageSrc": "https://image.made-in-china.com/2f0j00fsiqeumJQVcN/New-Models-Girls-Travel-Backpack-Custom-Nylon-Women-s-Backpack-College-School-Bag-with-Logo.webp",
+      "imageAlt": "Backpacks",
+      "shopName": "Urban Pack",
+      "buttonText": "View Collection",
+      "textColor": "white"
+    },
+    {
+      "id": 4,
+      "color": "card-color-4",
+      "imageSrc": "https://ishhaara.com/cdn/shop/files/ishhaara-white-pearl-embellish-evening-clutch-bag-32599991615531.jpg?v=1710358389&width=823",
+      "imageAlt": "Clutches",
+      "shopName": "Evening Glam",
+      "buttonText": "View Collection",
+      "textColor": "rgb(255, 255, 255)"
+    }
+  ],
+  "footer": {
+    "title": "Explore More!",
+    "columns": [
+      {
+        "heading": "Shop",
+        "items": [
+          "New Arrivals",
+          "Best Sellers",
+          "Sale",
+          "Collections"
+        ]
+      },
+      {
+        "heading": "Information",
+        "items": [
+          "About Us",
+          "Shipping",
+          "Returns",
+          "Contact"
+        ]
+      },
+      {
+        "heading": "Categories",
+        "items": [
+          "Handbags",
+          "Traditional Bags",
+          "Backpacks",
+          "Clutches"
+        ]
+      }
+    ]
+  },
+  "backButton": {
+    "text": "Back to homepage",
+    "href": "index.html"
+  }
+}
