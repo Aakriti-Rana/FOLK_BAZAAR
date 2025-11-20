@@ -1,0 +1,202 @@
+/* Footer Container */
+.footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 40px 20px;
+  border-top: 2px solid #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+/* Footer Sections */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #b0b0b0;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.email-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.email-input::placeholder {
+  color: #888;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #ffd700;
+  background-color: #333;
+}
+
+.subscribe-btn {
+  padding: 12px 45px;
+  background-color: #FFB6D9;
+  color: #1a1a1a;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-width: 150px;
+}
+
+.subscribe-btn:hover {
+  background-color: #FFC9E3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 182, 217, 0.3);
+}
+
+/* Schedule Section */
+.schedule-info {
+  margin-bottom: 20px;
+}
+
+.schedule-item {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #b0b0b0;
+  line-height: 1.6;
+}
+
+.schedule-item strong {
+  color: #ffffff;
+}
+
+.address-title {
+  margin-top: 25px;
+}
+
+.address-info {
+  font-size: 14px;
+  color: #b0b0b0;
+  line-height: 1.6;
+}
+
+/* Social Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-link {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.social-link:hover {
+  color: #ffed4e;
+  padding-left: 5px;
+}
+
+.contact-title {
+  margin-top: 25px;
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  font-size: 14px;
+  margin: 0;
+  color: #b0b0b0;
+}
+
+.contact-item a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  color: #ffed4e;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .email-input,
+  .subscribe-btn {
+    width: 100%;
+  }
+
+  .social-links {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
